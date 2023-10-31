@@ -1,0 +1,222 @@
+.navmio{
+    padding-left: 100px;
+}
+
+.navmio-2{
+  padding-left: 80px;
+}
+
+.color_dark {
+  background-color: black;
+}
+
+.logout{
+    padding-left: 550px;
+}
+
+  /*Inicio container cards*/
+
+  .title_inicio{
+    margin-top: 50px;
+    margin-bottom: 35px;
+  }
+
+  .tit-car{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+  }
+
+/*Background*/ 
+
+body{
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+/*color de textos*/
+
+.title_inicio, .parrafo_inicio{
+  color: rgb(212, 175, 55);
+}
+
+.color_texto {
+  color: rgba(212, 175, 55) !important;
+  font-weight: bolder !important;
+  font-size: large !important;
+}
+
+.log_out {
+  color: rgb(255, 59, 59) !important;
+  font-weight: 700 !important;
+  font-size: large !important;
+ 
+}
+
+/*logo*/
+
+.logo_mio {
+  margin-top: 10px;
+}
+
+/*Form start*/ 
+
+.container-form2{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 100px;
+}
+
+.container-form2:after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: url("https://plus.unsplash.com/premium_photo-1686149742148-0ecfc101706b?auto=format&fit=crop&q=80&w=1374&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat center;
+	background-size: cover;
+	filter: blur(50px);
+	z-index: -1; 
+}
+.contact-box{
+	max-width: 850px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #fff;
+	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+  height: 425px;
+}
+
+.left{
+	background: url("https://raw.githubusercontent.com/tobikadachi937/imagenes/main/logo%20form.jpg") no-repeat center;
+	background-size: cover;
+	height: 100%; 
+  padding: 150px 200px;
+
+}
+
+.right{
+	padding: 25px 40px;
+}
+
+
+
+.field{
+	width: 100%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.6);
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+	transition: .3s;
+}
+
+.field:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea{
+	min-height: 150px;
+}
+
+.btn-r{
+	width: 100%;
+	padding: 0.5rem 1rem;
+	background-color: black;
+	color: #fff;
+	font-size: 1.1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s; 
+    border-radius: 50px 50px 50px 50px
+}
+
+.btn-r:hover{
+    background-color: rgb(212, 175, 55); 
+}
+
+.field:focus{
+    border: 2px solid rgba(30,85,250,0.47);
+    background-color: rgb(212, 175, 55);
+}
+
+@media screen and (max-width: 880px){
+	.contact-box{
+		grid-template-columns: 1fr;
+        height: max-content;
+	}
+	.left{
+		height: 325px;
+	}
+    .right{
+        height: 480px;
+        width: 300px;  
+    }
+} 
+
+/*Form ends*/ 
+
+/*Form login*/
+#login {
+  padding-top: 150px;
+}
+
+.form_title {
+  padding-bottom: 150px;
+}
+
+.form_mio {
+  margin-top: -105px;
+}
+
+.user_mio {
+  margin-bottom: 30px;
+}
+
+.pass_mio{
+  margin-bottom: 50px;
+}
+
+.bot_mio {
+  width: 100%;
+	padding: 0.5rem 1rem;
+	background-color: black;
+	color: #fff;
+	font-size: 1.1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s; 
+    border-radius: 50px 50px 50px 50px
+}
+
+.bot_mio:hover{
+  background-color: rgb(212, 175, 55); 
+}
+
+.field:focus{
+  border: 2px solid rgba(30,85,250,0.47);
+  background-color: rgb(212, 175, 55);
+}
+
+/*contact termina*/
+
+/*padding navbar datos*/
+
+.correcion_padding{
+  padding-left: 20px;
+}
+
+.spacing_mio {
+  padding-bottom: 65px;}
